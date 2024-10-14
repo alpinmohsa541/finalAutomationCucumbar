@@ -17,3 +17,9 @@ Feature: kasiraja Login Tests
         Given I open kasiraja website
         When I Login with invalid password
         Then I should see an error message
+
+    @all @positive
+    Scenario: Login successfully with valid credentials
+        Given I open kasiraja website
+        When I Login with valid credentials
+        Then I should be on the dashboard page
