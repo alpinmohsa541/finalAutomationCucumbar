@@ -35,8 +35,9 @@ class LoginPage {
     }
   
     async assertErrorMessage(expectedErrorMessage) {
-      await expect(this.errorMsg).toHaveTextContaining(expectedErrorMessage);
-    }
+      const actualErrorMessage = await this.errorMsg.getText(); // Ambil teks dari elemen
+      expect(actualErrorMessage).toContain(expectedErrorMessage); // Gunakan .toContain untuk memeriksa isi teks
+  }
   
     async getErrorMessageText() {
       return await this.errorMsg.getText();

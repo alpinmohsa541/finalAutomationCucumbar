@@ -19,20 +19,16 @@ Then(/^I should be on the dashboard page$/, async ()=>{
 })
 
 When(/^I Login with invalid username$/, async ()=>{
-    await LoginPage.login('invalid_email', 'f1234567');
+    await LoginPage.login('asdasda@gmail.com', 'f1234567');
 })
 
 Then(/^I should see an error message$/, async ()=>{
-    await LoginPage.assertErrorMessage(`Kredensial yang Anda berikan salah`);
+    await LoginPage.assertErrorMessage("Kredensial yang Anda berikan salah");
     
 })
 When(/^I Login with invalid password$/, async ()=>{
     await LoginPage.login('alpinmohsa@gmail.com', 'fasdz123');
 
-})
-
-Then(/^I should see an error message$/, async ()=>{
-    await LoginPage.assertErrorMessage(`Kredensial yang Anda berikan salah`);
 })
 
 
