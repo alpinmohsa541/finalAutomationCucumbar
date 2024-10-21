@@ -1,6 +1,6 @@
 Feature: kasiraja Login Tests 
 
-    @all 
+    @all
     Scenario: Login successfully with valid credentials
         Given I open kasiraja website
         When I Login with valid credentials

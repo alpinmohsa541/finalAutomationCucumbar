@@ -1,6 +1,6 @@
 Feature: kasiraja Register Tests 
 
-    @Register 
+    @all
     Scenario: Register successfully with valid credentials
         Given I open kasiraja website
         When I Register with valid credentials
