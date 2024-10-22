@@ -1,7 +1,7 @@
 const { Given, When, Then } = require("@wdio/cucumber-framework");
-const Page = require("../pages/page.js");
-const RegisterPage = require ("../pages/register.page.js");
-const DashboardPage = require("../pages/dashboard.page.js");
+const Page = require("./page.js");
+const RegisterPage = require ("./register.page.js");
+const DashboardPage = require("./dashboard.page.js");
 
 
 Given(/^I open kasiraja website$/, async () => {

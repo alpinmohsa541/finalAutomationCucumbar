@@ -2,7 +2,7 @@
 class LoginPage {
     //TODO 1: define 'web element locator' here
     get loginPageUrl() {
-      return 'https://kasirdemo.vercel.app/login';
+      return 'https://kasirdemo.vercel.app';
     }
   
     get emailInput() {

@@ -3,6 +3,10 @@ class RegisterPage {
     get RegisterPageUrl() {
       return '/register';
     }
+
+    get registerPage(){
+      return $('/html/body/div/div/div/div/div[2]/div/div[3]/a');
+    }
   
     get NameInput() {
         return $('//*[@id="name"]'); //locator field: email
@@ -45,6 +49,10 @@ class RegisterPage {
   
     async getErrorMessageText() {
       return await this.errorMsg.getText();
+    }
+
+    async getPageRegister(){
+      await this.registerPage.click();
     }
   }
   
