@@ -152,7 +152,11 @@ exports.config = {
         // <boolean> fail if there are any undefined or pending steps
         strict: false,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
+<<<<<<< HEAD
         tagExpression: '@all',
+=======
+        tagExpression: '',
+>>>>>>> 02c5a55fd5829c0c14b47a384c5ecdbd8a75d6ff
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.

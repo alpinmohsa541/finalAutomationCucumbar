@@ -1,15 +1,15 @@
 class RegisterPage {
     //TODO 1: define 'web element locator' here
-    get RegisterPageUrl() {
-      return '/register';
+    get registerPageUrl() {
+      return 'https://kasirdemo.vercel.app/register';
     }
 
     get registerPage(){
       return $('/html/body/div/div/div/div/div[2]/div/div[3]/a');
     }
   
-    get NameInput() {
-        return $('//*[@id="name"]'); //locator field: email
+    get nameInput() {
+        return $('//*[@id="name"]'); //locator field: name
       }
 
     get emailInput() {
@@ -20,7 +20,7 @@ class RegisterPage {
       return $('#password'); //locator field: password
     }
   
-    get RegisterButton() {
+    get registerButton() {
       return $(
         '/html/body/div[1]/div/div/div/div[2]/div/button'
       ); //locator field: Register Button
@@ -32,10 +32,10 @@ class RegisterPage {
   
     //TODO 2: define 'element actions' here
     async register(name,email, password) {
-      await this.NameInput.setValue(name);
+      await this.nameInput.setValue(name);
       await this.emailInput.setValue(email);
       await this.passwordInput.setValue(password);
-      await this.RegisterButton.click();
+      await this.registerButton.click();
     }
   
     async assertRegisterPageUrl() {
