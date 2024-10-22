@@ -6,8 +6,8 @@ Kasir aja ini adalah aplikasi kasir berbasis web yang dikembangkan untuk memperm
 ### `npm install`
 ### `npm run wdio`
 
-# test scenario
+# Test scenario
 https://docs.google.com/spreadsheets/d/1th_FaIOSiBcO0KgbfKevXa76ZFitGkgISn1DNfSOiw0/edit?usp=sharing
-# vidio running
+# Vidio running
 https://github.com/user-attachments/assets/e42e71fd-f27b-425e-9836-c83a452105c8
 
