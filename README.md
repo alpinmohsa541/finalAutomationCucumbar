@@ -2,6 +2,10 @@
 
 Kasir aja ini adalah aplikasi kasir berbasis web yang dikembangkan untuk mempermudah pengelolaan transaksi pada sebuah toko atau usaha. Aplikasi ini menyediakan berbagai fitur yang intuitif untuk pencatatan penjualan, manajemen barang, dan laporan transaksi.
 
+# Running
+### `npm install`
+### `npm run wdio`
+
 # test scenario
 https://docs.google.com/spreadsheets/d/1th_FaIOSiBcO0KgbfKevXa76ZFitGkgISn1DNfSOiw0/edit?usp=sharing
 # vidio running
